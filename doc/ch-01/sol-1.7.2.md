@@ -5,6 +5,7 @@ Show that `sum [x] = x` for any number `x`.
 sum [] = 0
 sum (x:xs) = x + sum xs
 ```
+## Solution
 
 ```haskell
 λ> x + sum []

@@ -4,6 +4,9 @@ Give another possible calculation for the result of `double (double 2)`.
 ``` haskell
 double x = x + x
 ```
+
+## Solution
+
 #### Normal order / Outermost evalutaion
 ``` haskell
 λ> double 2 + double 2
