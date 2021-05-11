@@ -19,6 +19,6 @@ n = a `div` length xs
        xs = [1,2,3,4,5]
 ```
 
-The first mistake is that the name of the function must begin with a lower-case letter. And the second one "each definition at the same level must begin in precisely the same column": `xs` must be under `a`.
+The first mistake is that the name of the function must begin with a lower-case letter. And the second one ***"each definition at the same level must begin in precisely the same column"***: `xs` must be under `a`.
 
 [Code](../../src/ch-02/2-7-3.hs)
