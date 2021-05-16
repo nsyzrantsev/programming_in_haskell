@@ -1,6 +1,6 @@
 ## Exercise 4.8.8
 
-The *Luhn algorithm* is used to check bank card numbers for simple errors such as mistyping a digit, and proceeds as follows:
+The ***Luhn algorithm*** is used to check bank card numbers for simple errors such as mistyping a digit, and proceeds as follows:
 
 * consider each digit as a separate number;
 * moving left, double every other number from the second last;
