@@ -16,6 +16,21 @@ safetail_b ns | null ns   = []
 safetail_c (_:ns) = ns
 
 -- exercise 4.8.4
-a || b | b         = b
-       | c         = c
+a || b | a         = a
+       | b         = b
        | otherwise = False
+
+-- exercise 4.8.5
+a && b = if a then b else if b then a else False
+
+-- exercise 4.8.6
+a && b = if a then b else False
+
+-- exercise 4.8.7
+mult = \x -> (\y -> (\z -> x*y*z))
+
+-- exercise 4.8.8
+luhnDouble x | 2*x > 9   = 2*x - 9
+             | otherwise = 2*x
+luhn a b c d | sum [luhnDouble a, b, luhnDouble c, d] `mod` 10 == 0 = True
+             | otherwise                                            = False
