@@ -32,5 +32,5 @@ mult = \x -> (\y -> (\z -> x*y*z))
 -- exercise 4.8.8
 luhnDouble x | 2*x > 9   = 2*x - 9
              | otherwise = 2*x
-luhn a b c d | sum [luhnDouble a, b, luhnDouble c, d] `mod` 10 == 0 = True
-             | otherwise                                            = False
+luhn a b c d | (luhnDouble a + b + luhnDouble c + d) `mod` 10 == 0 = True
+             | otherwise                                           = False
