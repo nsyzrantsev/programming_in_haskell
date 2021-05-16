@@ -21,4 +21,4 @@ n = a `div` length xs
 
 The first mistake is that the name of the function must begin with a lower-case letter. And the second one ***"each definition at the same level must begin in precisely the same column"***: `xs` must be under `a`.
 
-[Code](../../src/ch-02/2-7-3.hs)
+[Code](../../src/ch-02/2-7.hs)

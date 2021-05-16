@@ -12,4 +12,4 @@ qsort_decreasing (x:xs) = qsort_decreasing larger ++ [x] ++ qsort_decreasing sma
                           smaller = [b | b <- xs, b <= x]
 ```
 
-[Code](../../src/ch-01/1-7-4.hs)
+[Code](../../src/ch-01/1-7.hs)
