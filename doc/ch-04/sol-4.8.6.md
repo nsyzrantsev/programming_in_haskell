@@ -12,4 +12,4 @@ False && _ = False
 a && b = if a then b else False
 ```
 
-[Code](../../src/ch-04/4-8.hs)
+[Code](../../src/ch-04/4-8.hs#L26)

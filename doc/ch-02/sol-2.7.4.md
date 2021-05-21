@@ -9,4 +9,4 @@ last1 ns = head (reverse ns)
 last2 ns = ns !! (length ns - 1)
 ```
 
-[Code](../../src/ch-02/2-7.hs)
+[Code](../../src/ch-02/2-7.hs#L7)

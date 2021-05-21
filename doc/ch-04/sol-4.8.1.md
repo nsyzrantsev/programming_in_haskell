@@ -15,4 +15,4 @@ halve_3 ns = (take n ns, drop n ns)
                where n = length ns `div` 2
 ```
 
-[Code](../../src/ch-04/4-8.hs)
+[Code](../../src/ch-04/4-8.hs#L1)

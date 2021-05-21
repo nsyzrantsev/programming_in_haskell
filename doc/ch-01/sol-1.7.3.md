@@ -9,4 +9,4 @@ product' []     = 1
 product' (x:xs) = x * product' xs
 ```
 
-[Code](../../src/ch-01/1-7.hs)
+[Code](../../src/ch-01/1-7.hs#L1)

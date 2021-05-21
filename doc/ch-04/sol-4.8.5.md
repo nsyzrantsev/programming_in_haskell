@@ -13,4 +13,4 @@ Hint: use two nested conditional expressions.
 a && b = if a then b else if b then a else False
 ```
 
-[Code](../../src/ch-04/4-8.hs)
+[Code](../../src/ch-04/4-8.hs#L23)

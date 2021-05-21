@@ -13,4 +13,4 @@ third_b ns = ns !! 3
 third_c (_:_:n:_) = n
 ```
 
-[Code](../../src/ch-04/4-8.hs)
+[Code](../../src/ch-04/4-8.hs#L7)

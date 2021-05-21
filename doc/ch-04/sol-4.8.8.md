@@ -37,4 +37,4 @@ luhn a b c d | (luhnDouble a + b + luhnDouble c + d) `mod` 10 == 0 = True
              | otherwise                                           = False
 ```
 
-[Code](../../src/ch-04/4-8.hs)
+[Code](../../src/ch-04/4-8.hs#L32)

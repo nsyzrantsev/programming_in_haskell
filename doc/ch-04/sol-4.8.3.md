@@ -14,4 +14,4 @@ safetail_b ns | null ns   = []
 safetail_c (_:ns) = ns 
 ```
 
-[Code](../../src/ch-04/4-8.hs)
+[Code](../../src/ch-04/4-8.hs#L12)

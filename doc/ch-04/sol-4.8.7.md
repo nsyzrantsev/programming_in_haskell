@@ -11,3 +11,4 @@ mult x y z = x*y*z
 ```haskell
 mult = \x -> (\y -> (\z -> x*y*z))
 ```
+[Code](../../src/ch-04/4-8.hs#L29)

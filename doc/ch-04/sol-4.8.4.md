@@ -10,4 +10,4 @@ b || c | b         = b
        | otherwise = False
 ```
 
-[Code](../../src/ch-04/4-8.hs)
+[Code](../../src/ch-04/4-8.hs#L18)

@@ -13,4 +13,4 @@ qsort_without_duplicates (x:xs) = qsort_without_duplicates smaller ++ [x] ++ qso
 ```
 While sorting repeating elements will be removed. That is the result of calling this function is a sorted list with unique values.
 
-[Code](../../src/1-7-5.hs)
+[Code](../../src/1-7-5.hs#L12)
