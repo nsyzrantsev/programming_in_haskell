@@ -28,7 +28,7 @@ double x = x + x
 ```
 4 operations
 
-#### Lazy evalutaion ("call by need")
+#### Lazy evalutaion (memoizated variant of the normal order)
 
 ```haskell
 λ> double 2 + double 2
